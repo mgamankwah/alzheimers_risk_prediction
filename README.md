@@ -51,7 +51,9 @@ Numpy, Pandas, Scikit-Learn, XGBoost, Matplotlib, Seaborn, Optuna
 ## Contact
 
 Mercy Amankwah - mga26@case.edu
+
 Seyed Abdolhamid Banihashemi - sabani@umd.edu
+
 Nasheed Jafri - njafri@iu.edu
 
 
