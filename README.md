@@ -16,8 +16,8 @@ Team Members:
 Alzheimer’s disease (AD) is a progressive disorder impacting memory, thinking, and behavior. Early detection is vital but challenging due to its complex causes and gradual onset. This project aims to build a predictive model to estimate AD risk using features such as demographics, medical history, lifestyle, clinical data, and cognitive assessments.
 
 ### **KPIs**
-- *Model accuracy and performance:* Measured using metrics such as accuracy, precision, recall, and F1-score.
-- *Early detection success rate:* The proportion of correctly identified early-stage AD cases.
+- *Model accuracy and performance:* Measured using metrics such as accuracy, precision, recall, F1-score, and confusion matrices.
+- *Early detection success rate:* The proportion of correctly identified early-stage AD cases, or suspected patients with no prior memory complaints.
 - *Reliable probabilistic model for risk assessment:* Probability calibration with well performance in metrics such as Brier and ROC AUC.
 
 ### **Stakeholders**
