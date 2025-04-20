@@ -32,6 +32,8 @@ We used a synthetic dataset from [Kaggle’s Alzheimer’s Disease Risk Predicti
 
 We split the Kaggle training set 80/20 for validation. Multiple classifiers were trained on the training set, tested on the validation set, and compared to a baseline (majority class). To explore feature importance, models were also run on different subsets of features. For early detection, we repeated the process on patients without memory complaints. Using accuracy as the metric for initial model selection, AdaBoost (96.5%) performed best on the full dataset, while XGBoost (95.6%) led in the early detection group. We tuned both models with Optuna, optimizing metrics (accuracy, F1, recall, and precision) to penalize different sources of inaccuracy, using both 5-fold cross-validation and full training set fitting. Performance was evaluated via confusion matrices on the validation set and F1 score on the Kaggle test set via submission to the competition page. A tuned AdaBoost achieved an F1 of 93.28%, close to the leaderboard’s top score of 94%. Post-tuning, validation accuracy improved to 97% for AdaBoost and 96.7% for XGBoost in the early detection scenario.
 
+![img](./images/modeling_strategy.jpg)
+
 For each of the tuned best-performing models, we performed a feature importance analysis. Across both models, cognitive assessment features like MMSE, Functional Assessment, and ADL are the most influential in predicting Alzheimer’s.
 
 ### **Probabilistic Modeling**
