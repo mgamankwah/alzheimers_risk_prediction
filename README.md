@@ -35,7 +35,7 @@ We split the Kaggle training set 80/20 for validation. Multiple classifiers were
 ![img](./images/modeling_strategy.jpg)
 
 For each of the tuned best-performing models, we performed a feature importance analysis. Across both models, cognitive assessment features like Mini-Mental State Exam (MMSE), Functional Assessment, and Activities of Daily Living (ADL) are the most influential in predicting Alzheimer’s.
-![alt](./images/modeling_strategy.jpg)
+![alt](./images/feature_importance.jpg)
 
 ### **Probabilistic Modeling**
 
